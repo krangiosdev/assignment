@@ -1,23 +1,26 @@
 package com.md;
 
+import com.md.animal.Animal;
+import com.md.animal.Cat;
+import com.md.animal.Dog;
 import com.md.number.PerfectNumber;
 
 public class Main {
 
     public static void main(String[] args) {
 
-//        System.out.println("Animal Test ============================================================");
-//        Animal animal1 = new Dog("Bolt", 13);
-//        animal1.type();
-//        System.out.println("Animal Details: name " + animal1.getName() + " weight " + animal1.getWeight());
-//        animal1.sound();
-//        Animal animal2 = new Cat("Garfield", 14);
-//        animal2.type();
-//        System.out.println("Animal Details: name " + animal2.getName() + " weight " + animal2.getWeight());
-//        animal2.sound();
-//        System.out.println("==========================================================================");
+        System.out.println("Animal Test ============================================================");
+        Animal animal1 = new Dog("Bolt", 13);
+        animal1.type();
+        System.out.println("Animal Details: name " + animal1.getName() + " weight " + animal1.getWeight());
+        animal1.sound();
+        Animal animal2 = new Cat("Garfield", 14);
+        animal2.type();
+        System.out.println("Animal Details: name " + animal2.getName() + " weight " + animal2.getWeight());
+        animal2.sound();
+        System.out.println("==========================================================================");
 
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 100; i++) {
             printIsPerfect(i);
         }
 
